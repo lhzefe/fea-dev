@@ -63,7 +63,15 @@ Se quiser, é possível ir direto no site do [Anaconda](https://www.anaconda.com
 De modo geral eu gosto do combo: Visual Studio Code + Python + Extensão do Jupyter Notebook para Visual Studio Code. E se você for que nem eu, mas não quiser ter o Anaconda de segunda opção, eu recomendo instalar o **Chocolatey**, posteriormente os comandos a seguir e é isso. Contudo, acredito ser fortemente interessante que seja lido todo o conteúdo desse README, para que se tenha em mente as variações de instalação, trazendo assim, flexibilidade. E como aqui estamos tratando de Windows, voltamos ao next, next, next, se te fizer maior conforto.
 
 ```powershell
-choco install vscode; python; vscode-python; vscode-jupyter && pip install pandas 
+choco install vscode python vscode-python vscode-jupyter 
+```
+
+Após finalizadas as instalações acima, reinicia a sessão do Powershell é necessário para que as intalações tenham efeito. Existem algumas maneiras de fazer isso... feche e abra o Powershell (rsrs).
+
+Por fim com o Powershell aberto uma vez mais, instale o Pandas que carrega consigo indiretamente, Numpy e diversas outras bibliotecas a serem usadas nos códigos desse repositório.
+
+```powershell
+pip install pandas 
 ```
 
 - Chocolatey <a name="chocolatey"></a> (Opcional)
@@ -95,7 +103,11 @@ Observe que, caso o Anaconda tenha sido instalado ele por si só já instala o P
 Todavia, com o comando que segue, vamos instalar o Python:
 
 ```powershell
-choco install python && pip install pandas
+choco install python
+```
+
+```powershell
+pip install pandas
 ```
 
 - Visual Studio Code <a name="vsc"></a>
