@@ -13,9 +13,9 @@ Curso de Python para negócios instruido pela FEA.dev da USP (Universidade de S�
 
 - [Sobre](#sobre)
 - [Introdução](#introdução)
-    - [Roteiro](#roteiro)
-    - [Requisitos](#requisitos)
-    - [Instalações](#instalações)
+  - [Roteiro](#roteiro)
+  - [Requisitos](#requisitos)
+  - [Instalações](#instalações)
 
 ## Sobre
 
@@ -44,12 +44,12 @@ O cronograma e a metodologia base, aqui apresentados, são de propriedade intele
 Para se obter uma boa experiência com esse repositório, indico a seguir o que será necessário:
 
 - [Chocolatey](#chocolatey)
-- [Anaconda 3](#anaconda3) 
-- [Python 3.9.12+](#python) 
-    - [Numpy](#numpy)
-    - [Pandas](#pandas)
+- [Anaconda 3](#anaconda3)
+- [Python 3.9.12+](#python)
+  - [Numpy](#numpy)
+  - [Pandas](#pandas)
 - [Visual Studio Code](#vsc)
-    - [Extensões](#vsc-ext)
+  - [Extensões](#vsc-ext)
 - [Jupyter Notebook](#jupyternb)
 
 ### Instalações
